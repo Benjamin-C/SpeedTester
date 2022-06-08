@@ -44,7 +44,7 @@ public class SpeedTester {
 				for(int i = 0; i < jobs; i++) {
 					pool.newJobBatch(1, (Job job2) -> {
 						int a = 0;
-						for(int j = 0; j > 0; j++) {
+						for(int j = 0; j >= 0; j++) {
 							a++;
 							a%=255;
 						}
